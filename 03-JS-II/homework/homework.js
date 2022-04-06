@@ -111,7 +111,7 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero<2){return false;}
-  if(numero === 2{return true};)
+  if(numero === 2){return true};
   for(let i=2;i<numero;i++){
     if(numero % i===0){return false;}
     else{return true}
@@ -145,9 +145,7 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  let i=numero + 5 
-  do{console.log(i);
-  i++ } while {i<== i(8)}
+  
 }
 
 
